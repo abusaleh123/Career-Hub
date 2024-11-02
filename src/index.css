@@ -22,3 +22,8 @@ body{
   
 } 
 
+.border-btn{
+  border-image: linear-gradient(to right, #7E90FE 4%, #9873FF 57%) 2;
+  border-radius: 10p;
+
+}
