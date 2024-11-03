@@ -10,8 +10,8 @@ const NavBar = () => {
         
    
     return (
-        <div className="bg-purple-50">
-        <div className="navbar  w-10/12 mx-auto">
+        <div className="bg-purple-50 ">
+        <div className="navbar  w-10/12 mx-auto relative">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

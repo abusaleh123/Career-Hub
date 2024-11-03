@@ -27,3 +27,8 @@ body{
   border-radius: 10p;
 
 }
+
+.bg{
+  background-image:url(./assets/assets/images/bg1.png);
+  background-repeat: no-repeat;
+}

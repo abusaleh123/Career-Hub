@@ -4,7 +4,7 @@ const Banner = () => {
     return (
        
             <div className="hero bg-purple-50 ">
-  <div className="hero-content flex-col lg:flex-row-reverse">
+  <div className="hero-content flex-col lg:flex-row-reverse mt-10">
     <img
       src={profile}
       className="max-w-2xl rounded-lg shadow-2xl" />

@@ -1,9 +1,9 @@
 import { CiLocationOn } from "react-icons/ci";
 import { AiOutlineDollarCircle } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Job = ({job}) => {
-   const {logo, job_title, company_name, remote_or_onsite, job_type, location, salary, } = job
-    console.log(job);
+   const {id, logo, job_title, company_name, remote_or_onsite, job_type, location, salary, } = job
     return (
         <div className="border py-10 px-16 rounded-xl mt-10">
             <img src={logo} alt="" />
@@ -17,7 +17,9 @@ const Job = ({job}) => {
             <p className="text-lg flex items-center text-[#757575] gap-2"> <CiLocationOn />{location}</p>
             <p className="text-lg flex items-center gap-2 text-[#757575]"><AiOutlineDollarCircle /> Salary:  {salary}</p>
             </div>
+            <Link to={`/job/${id}`}>
             <button className=" btn btn-gr text-white font-bold">View Details</button>
+            </Link>
         </div>
     );
 };

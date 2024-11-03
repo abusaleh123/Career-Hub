@@ -1,6 +1,5 @@
 const Category = ({category}) => {
     const {logo, category_name, availability } = category;
-    console.log(category);
     return (
         <div>
             <div className="  bg-purple-50 py-10  px-10 rounded-xl mt-10 ">
